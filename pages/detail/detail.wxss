@@ -1,0 +1,87 @@
+/* pages/detail/detail.wxss */
+.container{
+    position: relative;
+}
+.video-section{
+    width: 100%;
+}
+
+.video-section video{
+    width:100%;
+}
+
+
+
+.tab{
+    width:100%;
+}
+
+.tab .tab-head{
+    display: flex;
+    height: 50px;
+    background-color: #fff;
+    box-shadow: 0px 2px 2px #ccc;
+}
+.tab .tab-head .tab-head-item{
+    flex: 1;
+    text-align: center;
+    line-height: 50px;
+}
+.container{
+    overflow: hidden;
+}
+.tab .tab-content{
+    background-color: #fff;
+    width: 200%;
+    display: flex;
+    border-top: solid 1px #eee;
+    position: fixed;
+}
+.tab .tab-content .tab-item{
+    flex: 1;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.chatper{
+    height: 50px;
+    border-bottom:  solid 1px #eee;
+    line-height: 50px;
+    display: flex;
+    font-size: 14px;
+}
+.chatper:active{
+    background-color: #eee;
+}
+
+
+.play, .arrow{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.chatper .arrow image,.chatper .play image{
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+}
+
+.chatper .title{
+    flex: 5;
+    text-align: left;
+}
+
+
+page,
+.page,
+.page__bd{
+    height: 100%;
+}
+.page__bd{
+    padding-bottom: 0;
+}
+.weui-tab__content{
+    text-align: center;
+}

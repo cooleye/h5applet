@@ -1,0 +1,34 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/detail/detail",
+    "pages/list/list",
+    "pages/history/history",
+    "pages/mine/mine"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "前端精品课程",
+    "navigationBarTextStyle":"#fff"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#fb7d28",
+    "borderStyle": "#eee",
+    "backgroundColor": "#ffffff",
+    "position":"bottom",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "resource/icons/home-n.png",
+      "selectedIconPath":"resource/icons/home-a.png"
+    }, {
+      "pagePath": "pages/mine/mine",
+      "text": "我的",
+      "iconPath": "resource/icons/mine-n.png",
+      "selectedIconPath": "resource/icons/mine-a.png"
+    }]
+  }
+}
